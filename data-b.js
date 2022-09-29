@@ -1030,7 +1030,7 @@ if(tansiq[i].name == name){
      return c;
    }
  }
- data += `<tr><td>${tansiq[i].year}</td><td>${checkF(tansiq[i].ez)}</td></tr>`;
+ data += `<tr><td>${tansiq[i].year}</td><td>${checkF(tansiq[i].az)}</td><td>${checkF(tansiq[i].as)}</td><td>${checkF(tansiq[i].ez)}</td><td>${checkF(tansiq[i].es)}</td></tr>`;
 }
 printData.innerHTML = data;
 }
